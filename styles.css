@@ -20,13 +20,13 @@ main {
   padding-right: 20px;
 }
 
+/* TODO taka ætti padding af main þegar komið er fyrir ofan hámarksbreidd */
+
 @media(min-width:1490px) {
   main {
     padding: 0em;
   }
 }
-
-/* TODO taka ætti padding af main þegar komið er fyrir ofan hámarksbreidd */
 
 h1 {
   text-align: center;
@@ -145,9 +145,9 @@ h1 {
   order: -1;
 }
 
-/* TODO .card stílar úr v5 (eða sýnilausn...) */
-
-/* TODO responsive stílar fyrir .card */
+/*Hérna að neðan kemur útlitið í alls konar skjástærðum.
+  Fyrst kemur útlitið fyrir minni skjái eins og síma, 
+  síðan fyrir stærri og stærri skjái. */
 
 @media(min-width: 0px) {
   .grid__col {
@@ -171,7 +171,6 @@ h1 {
   .grid div:nth-of-type(2) {
     flex-direction: column-reverse;
   }
-  /* Útlit á .card er breytt frá v5, sjá að neðan */
 }
 
 @media(min-width: 700px) {
@@ -190,7 +189,6 @@ h1 {
   .card__row {
     display: flex;
   }
-  /* Útlit á .card fer í útlit úr v5, sjá að neðan */
 }
 
 @media(min-width:1000px) {
