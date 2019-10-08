@@ -1,0 +1,15 @@
+{
+  "name": "verkefni-6",
+  "version": "0.0.1",
+  "description": "Halda skal áfram með kort úr verkefni 5 að viðbættum texta og gera skal allt saman skalanlegt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser-sync": "browser-sync start --server --files index.html styles.css"
+  },
+  "author": "Magnús Þór",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
